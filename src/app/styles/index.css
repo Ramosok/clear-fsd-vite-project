@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  height: 15.6rem;
+  border-radius: 0.8rem;
+}
+
+#root,
+body,
+html {
+  height: 100%;
+  scrollbar-gutter: stable;
+}
+
+html {
+  font-size: 10px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-size: 1.5rem;
+  min-width: 320px;
+  position: relative;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+button {
+  color: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+ul {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px #fff;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+:focus::-moz-placeholder {
+  color: transparent;
+}
+:focus:-moz-placeholder {
+  color: transparent;
+}
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
