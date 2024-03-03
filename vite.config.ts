@@ -8,6 +8,8 @@ import autoprefixer from "autoprefixer";
 export default defineConfig({
   build: {
     sourcemap: true,
+    outDir: "../dist",
+    emptyOutDir: true,
   },
   plugins: [
     react(),
